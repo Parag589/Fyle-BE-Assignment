@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "5000:120"
+
+#to build the docker image , navigate to the directory where the docker-compose.yaml file is located and run the following command
+# bash
+# docker-build -t dockerimage .
